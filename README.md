@@ -12,5 +12,4 @@ The body block targets the entirety of the body. These few lines are a good plac
 SCRIPT.JS
 The logic of this application can all by found in index.js. At the top of this file, I declared a few variables globally that will be necessary to use later on Then, I created a class called Item.
 Inside the class I have a constructor, which takes in itemName. Inside the constructor, I called on an instance method called createDiv and pass in the itemName. 
-Still inside the Item class, I created an instance method, createDiv, passing in itemName. This method first creates a variable called input which is an input, and is given the value of the inputName, a class of item_input, a type of text, and disabled is set to true. 
-The text property disabled affects whether the field can be clicked on and altered. This is important for the editing function which will be implemented later on.
+
